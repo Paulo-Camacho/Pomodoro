@@ -6,7 +6,12 @@
 
 Timer::Timer(double t) : time(t * 60) {}
 
-void Timer::printTimer()
+double Timer::getTime()
+{
+    return time;
+}
+
+void Timer::startTimer()
 {
     bool run = false;
     double counter{}; 

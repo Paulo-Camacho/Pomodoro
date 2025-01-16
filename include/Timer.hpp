@@ -5,7 +5,8 @@ class Timer
 {
     public:
         Timer(double t);
-        void printTimer();
+        void startTimer();
+        double getTime();
     private:
         double time;
         int minutes;
